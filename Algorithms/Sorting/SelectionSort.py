@@ -4,7 +4,7 @@ def selectionSort(arr):
         mini = i
         for j in range(i + 1, n):
             if arr[j] < arr[mini]:
-                mini=j
+                mini = j
         arr[i], arr[mini] = arr[mini], arr[i]
 
 if __name__ == '__main__':
